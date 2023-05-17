@@ -10,7 +10,7 @@ const ChatObj = ({ text, img }) => {
         <div className="flex w-full md:w-8/12 h-auto gap-5">
             <img className="rounded-full w-10 h-10" src={img} alt="chatuser" />
             <Typography
-                className="text-justify space-y-1"
+                className="text-justify space-y-1 overflow-x-auto"
                 component="div"
                 variant="body1"
                 color={themeTatailwind.primary.color}
