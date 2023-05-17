@@ -42,6 +42,13 @@ const Footer = () => {
                         Científico-Humanista y Técnico Profesional
                     </Typography>
                 </div>
+                <div className="flex justify-center p-2">
+                    <Typography typography="caption">
+                        Cliente desarrollado por exalumno{" "}
+                        <b>Fernando Garrido</b> del Liceo Manuel Montt de San
+                        Javier
+                    </Typography>
+                </div>
                 <div className="flex justify-center mb-3 mt-3">
                     <ul className="justify-end md:inline-flex">
                         {social.map((obj) => (
