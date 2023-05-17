@@ -50,7 +50,6 @@ const ChatGPT = () => {
             let clone = JSON.stringify(msjObj);
             let newMsj = JSON.parse(clone);
             newMsj.messages.push({ text: message, img: IAimg });
-            console.log(newMsj);
             setResponse(newMsj);
         }
     };
@@ -100,7 +99,7 @@ const ChatGPT = () => {
                             }}
                             value={chatWrite}
                             onChange={(e) => setChatWrite(e.target.value)}
-                            maxRows={5}
+                            maxRows={8}
                         />
                     </div>
                     <div>

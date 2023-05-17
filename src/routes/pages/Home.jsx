@@ -15,6 +15,22 @@ const Home = () => {
                 </Typography>
             </div>
             <ChatGPT />
+            <div className="flex w-full justify-center mb-3 mt-3">
+                <Typography
+                    variant="caption"
+                    color={themeTatailwind.primary.color}
+                >
+                    Codigo fuente disponible en:{" "}
+                    <a
+                        className="underline text-sky-600"
+                        href="https://github.com/CoffeSiberian/gpt-chat-react"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        https://github.com/CoffeSiberian/gpt-chat-react
+                    </a>
+                </Typography>
+            </div>
         </div>
     );
 };
