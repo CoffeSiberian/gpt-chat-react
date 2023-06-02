@@ -1,5 +1,5 @@
-const generarCaracteresRandom = (longitud) => {
-    let caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+const randomCharacter = (longitud) => {
+    const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let resultado = '';
 
     for (let i = 0; i < longitud; i++) {
@@ -10,4 +10,4 @@ const generarCaracteresRandom = (longitud) => {
     return resultado;
 }
 
-export default generarCaracteresRandom;
+export const RANDOM_ID = randomCharacter(5)
